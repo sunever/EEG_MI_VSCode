@@ -1,0 +1,98 @@
+{
+  "code_version": "1.0",
+  "config": {
+    "subjects": [
+      "S001",
+      "S002",
+      "S003",
+      "S004",
+      "S005",
+      "S006",
+      "S007",
+      "S008"
+    ],
+    "folds": 3,
+    "epochs": 2,
+    "patience": 2,
+    "learning_rates": [
+      0.003
+    ],
+    "batch_size": 64,
+    "seed": 2026,
+    "models": [
+      "csp_lda",
+      "fbcsp_lda",
+      "wide",
+      "mu",
+      "beta",
+      "fusion",
+      "wide_matched",
+      "weighted"
+    ],
+    "profile": "quick"
+  },
+  "cache": "epochs-v1-068d7c53f7c0",
+  "splits": [
+    {
+      "fold": 1,
+      "train": [
+        "S001",
+        "S002",
+        "S003",
+        "S008"
+      ],
+      "validation": [
+        "S007"
+      ],
+      "test": [
+        "S004",
+        "S005",
+        "S006"
+      ]
+    },
+    {
+      "fold": 2,
+      "train": [
+        "S004",
+        "S005",
+        "S006",
+        "S007"
+      ],
+      "validation": [
+        "S002"
+      ],
+      "test": [
+        "S001",
+        "S003",
+        "S008"
+      ]
+    },
+    {
+      "fold": 3,
+      "train": [
+        "S003",
+        "S004",
+        "S006",
+        "S008"
+      ],
+      "validation": [
+        "S001",
+        "S005"
+      ],
+      "test": [
+        "S002",
+        "S007"
+      ]
+    }
+  ],
+  "device": "cpu",
+  "versions": {
+    "python": "3.12.14",
+    "torch": "2.8.0+cpu",
+    "mne": "1.10.2",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0",
+    "pandas": "2.2.3",
+    "sklearn": "1.8.0"
+  }
+}

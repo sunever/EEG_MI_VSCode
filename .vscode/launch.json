@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "快速验证（8 名被试）",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/run.py",
+      "cwd": "${workspaceFolder}",
+      "args": ["--profile", "quick"],
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "正式五折实验（CPU）",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/run.py",
+      "cwd": "${workspaceFolder}",
+      "args": ["--profile", "full"],
+      "console": "integratedTerminal"
+    }
+  ]
+}

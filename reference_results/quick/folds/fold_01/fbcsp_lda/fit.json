@@ -1,0 +1,11 @@
+{
+  "train_seconds": 0.07301235299996733,
+  "validation_ba": 0.7519762845849802,
+  "components_per_band": 4,
+  "best_epoch": null,
+  "learning_rate": null,
+  "trainable_parameters": null,
+  "stored_model_coefficients": 781,
+  "fold": 1,
+  "model": "fbcsp_lda"
+}

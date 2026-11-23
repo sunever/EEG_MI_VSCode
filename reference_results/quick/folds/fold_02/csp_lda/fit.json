@@ -1,0 +1,11 @@
+{
+  "train_seconds": 0.03311256400002094,
+  "validation_ba": 0.5454545454545454,
+  "components_per_band": 4,
+  "best_epoch": null,
+  "learning_rate": null,
+  "trainable_parameters": null,
+  "stored_model_coefficients": 261,
+  "fold": 2,
+  "model": "csp_lda"
+}

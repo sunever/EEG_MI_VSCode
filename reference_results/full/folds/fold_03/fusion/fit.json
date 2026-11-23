@@ -1,0 +1,11 @@
+{
+  "train_seconds": 81.49645760599992,
+  "validation_ba": 0.6645879695751818,
+  "trainable_parameters": 2918,
+  "stored_model_coefficients": null,
+  "best_epoch": 8,
+  "learning_rate": 0.003,
+  "components_per_band": null,
+  "fold": 3,
+  "model": "fusion"
+}

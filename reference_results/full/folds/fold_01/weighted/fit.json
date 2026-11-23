@@ -1,0 +1,11 @@
+{
+  "train_seconds": 79.40773230199989,
+  "validation_ba": 0.6953470123227158,
+  "trainable_parameters": 3321,
+  "stored_model_coefficients": null,
+  "best_epoch": 12,
+  "learning_rate": 0.003,
+  "components_per_band": null,
+  "fold": 1,
+  "model": "weighted"
+}
